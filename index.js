@@ -1,3 +1,4 @@
+//This is a JavaScript code
 function updateclock() {
   var currentTime = new Date();
   var hour = currentTime.getHours();
