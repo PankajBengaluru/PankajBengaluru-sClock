@@ -7,9 +7,11 @@
 }
 body{
     height: 98vh;
-    background-image: linear-gradient(45deg, #080807, #30302f);
+    background-image: linear-gradient(180deg, #FF671F, #FFFFFF, #046A38);
     animation: gradientAnimation 10s ease infinite;
     border: 10px solid white;
+    opacity: calc(80%);
+    border-style:ridge;
      
 }
 
@@ -27,7 +29,7 @@ body{
     }
 }
 
-h1 {
+h1,h2 {
     font-size: 3rem;
     text-align: center;
     color: white;
@@ -56,7 +58,7 @@ h1 {
 .hour,
 .minute,
 .second {
-    border-radius: 2px;
+    border-radius: 1px;
     position: absolute;
     transform-origin: bottom center;
     left: 50%;
@@ -64,20 +66,20 @@ h1 {
 }
 
 .hour {
-    background-color: black;
-    width: 5px;
+    background-color: rgb(80, 2, 163);
+    width: 7px;
     height: 6vw;
 
 }
 
 .minute {
-    background-color: black;
-    width: 3px;
+    background-color: rgb(103, 244, 2);
+    width: 4.5px;
     height: 8vw;
 }
 
 .second {
-    background-color: black;
-    width: 1px;
-    height: 11vw;
+    background-color: rgb(242, 153, 0);
+    width: 2px;
+    height: 10vw;
 }
